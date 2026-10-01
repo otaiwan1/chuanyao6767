@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>傳耀的個人網站｜寫 Code 給電神看的 67 號工程師</title>
+  <meta name="description" content="傳耀的個人網站：展示 C++、Python、TypeScript 作品、系統設計與 67 號實驗室。給各位資訊系電神驗收程式功力的靜態網站。" />
+  <meta name="keywords" content="傳耀, 個人網站, 前端, C++, Python, TypeScript, 資訊系, GitHub Pages" />
+  <meta name="author" content="傳耀" />
+  <meta name="theme-color" content="#434343" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="zh_TW" />
+  <meta property="og:title" content="傳耀的個人網站｜寫 Code 給電神看" />
+  <meta property="og:description" content="作品、技能、程式碼展示與 67 實驗室。純靜態、手機桌機皆可看。" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23434343'/%3E%3Ctext x='32' y='42' font-family='monospace' font-size='28' font-weight='bold' fill='%23FFD60A' text-anchor='middle'%3E67%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "傳耀",
+    "jobTitle": "軟體工程師",
+    "description": "喜歡寫 code 的工程師，作品展示用個人網站。",
+    "knowsAbout": ["C++", "Python", "TypeScript", "系統設計", "演算法"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要內容</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="回到頁面頂端，傳耀的個人網站">
+        <span class="brand-badge" aria-hidden="true">67</span>
+        <span class="brand-text">傳耀<span class="brand-dot">.dev</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="開啟選單">
+        <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="主要導覽">
+        <a href="#about">關於</a>
+        <a href="#skills">技能</a>
+        <a href="#projects">作品</a>
+        <a href="#code">程式碼</a>
+        <a href="#lab">67 實驗室</a>
+        <a href="#journey">經歷</a>
+        <a href="#contact" class="nav-cta">聯絡我</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="top" class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="kicker"><span class="pill">v6.7</span> BUILD 6767 · 純靜態 · GitHub Pages 就緒</p>
+          <h1 id="hero-title">傳耀的個人網站<br /><span class="hl">寫 code 給電神看</span>的那種。</h1>
+          <p class="lede">各位資訊系的電神好，我是傳耀。這裡沒有後端、沒有框架，只有 HTML、CSS、JavaScript —— 快、好維護，67 分鐘內就能部署。</p>
+          <p class="type-line" aria-live="polite"><span aria-hidden="true">$</span> <span id="typewriter">whoami --show-off</span><span class="caret" aria-hidden="true">▌</span></p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">看作品（6 個）</a>
+            <a class="btn btn-ghost" href="#lab">直達 67 實驗室</a>
+          </div>
+          <dl class="stats" aria-label="網站數據（趣味性質）">
+            <div><dt>頁面載入目標</dt><dd><strong>67</strong> ms 級</dd></div>
+            <div><dt>單元測試</dt><dd><strong>67 / 67</strong> 通過</dd></div>
+            <div><dt>本頁 67 出現次數</dt><dd><strong id="stat-67">67+</strong></dd></div>
+          </dl>
+        </div>
+        <div class="hero-terminal" role="img" aria-label="示意終端機：顯示編譯並通過 67 個測試">
+          <div class="term-bar" aria-hidden="true"><i></i><i></i><i></i><span>chuanyao@67: ~/site</span></div>
+<pre class="term-body"><code>$ g++ -O2 -std=c++20 main.cpp -o demo
+$ ./demo --for 電神們
+✔ 編譯成功 (0 warning, 0 error)
+✔ 67/67 tests passed in 67ms
+✔ Lighthouse: 100 / 100 / 100 / 100
+&gt; Hello, 電神。我是傳耀，67 號工程師。</code></pre>
+        </div>
+      </div>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>67 · CHUANYAO.DEV · 寫 CODE · 給電神看 · 67 · C++ · PYTHON · TYPESCRIPT · 67 ·&nbsp;</span>
+          <span>67 · CHUANYAO.DEV · 寫 CODE · 給電神看 · 67 · C++ · PYTHON · TYPESCRIPT · 67 ·&nbsp;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="wrap">
+        <p class="sec-no" aria-hidden="true">01 / 67</p>
+        <h2 id="about-title">關於我 <span class="sec-67">#67</span></h2>
+        <div class="cols-2">
+          <div>
+            <p>我是傳耀，一個相信「能動手刻，就不要只會講」的工程師。這個網站是我的程式名片：你看到的排版、互動、無障礙與效能，全部都是展示品。</p>
+            <ul class="check-list">
+              <li><strong>主色 RGB(67, 67, 67)</strong>：低調的深灰，配高對比文字，白底對比約 9.5:1。</li>
+              <li><strong>零框架</strong>：三個檔案就能跑，GitHub Pages 直接託管。</li>
+              <li><strong>電神友善</strong>：每個互動都可以用鍵盤操作，原始碼可讀、可抄。</li>
+            </ul>
+          </div>
+          <aside class="card id-card" aria-label="個人小檔案">
+            <h3>whoami</h3>
+            <dl>
+              <div><dt>名字</dt><dd>傳耀（67 號工程師）</dd></div>
+              <div><dt>主修</dt><dd>寫 code（C++ / Python / TS）</dd></div>
+              <div><dt>副修</dt><dd>把 67 藏進每個角落</dd></div>
+              <div><dt>座右銘</dt><dd>「先求能跑，再求 67ms。」</dd></div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-alt" aria-labelledby="skills-title">
+      <div class="wrap">
+        <p class="sec-no" aria-hidden="true">02 / 67</p>
+        <h2 id="skills-title">技能樹 <span class="sec-67">67 點全滿</span></h2>
+        <p class="sec-sub">數字是自評，僅供電神們鞭策。進度條有正確的 ARIA 語意，鍵盤也讀得到。</p>
+        <ul class="skill-grid">
+          <li class="card">
+            <h3>C++ <span class="tag">主力</span></h3>
+            <p>競程 / 效能調校 / STL 玩到滾瓜爛熟。</p>
+            <div class="bar" role="progressbar" aria-label="C++ 熟練度" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" tabindex="0"><i style="width:92%"></i></div>
+          </li>
+          <li class="card">
+            <h3>Python <span class="tag">工具人</span></h3>
+            <p>爬蟲、自動化、資料處理，67 行內解決問題。</p>
+            <div class="bar" role="progressbar" aria-label="Python 熟練度" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" tabindex="0"><i style="width:88%"></i></div>
+          </li>
+          <li class="card">
+            <h3>TypeScript <span class="tag">前端</span></h3>
+            <p>型別寫好寫滿，本站零 any（因為本站沒用 TS）。</p>
+            <div class="bar" role="progressbar" aria-label="TypeScript 熟練度" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" tabindex="0"><i style="width:85%"></i></div>
+          </li>
+          <li class="card">
+            <h3>演算法與資料結構</h3>
+            <p>圖論、DP、線段樹。看到 67 先想是不是質數（是）。</p>
+            <div class="bar" role="progressbar" aria-label="演算法熟練度" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" tabindex="0"><i style="width:90%"></i></div>
+          </li>
+          <li class="card">
+            <h3>系統與網路</h3>
+            <p>Linux、Git、HTTP 快取、CI 概念，部署一把罩。</p>
+            <div class="bar" role="progressbar" aria-label="系統熟練度" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" tabindex="0"><i style="width:80%"></i></div>
+          </li>
+          <li class="card">
+            <h3>無障礙與效能 <span class="tag">67 分堅持</span></h3>
+            <p>語意 HTML、焦點樣式、對比度、RWD，本頁就是證據。</p>
+            <div class="bar" role="progressbar" aria-label="無障礙熟練度" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" tabindex="0"><i style="width:87%"></i></div>
+          </li>
+        </ul>
+        <p class="hint">小彩蛋：連按 <kbd>6</kbd> 再按 <kbd>7</kbd> 試試看。</p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <div class="wrap">
+        <p class="sec-no" aria-hidden="true">03 / 67</p>
+        <h2 id="projects-title">作品展示 <span class="sec-67">6 件 + 67 號預定</span></h2>
+        <p class="sec-sub">全部是腦補的示範專案，證明我會寫 code。點「展開 README」看細節，沒有會壞掉的外部連結。</p>
+        <div class="proj-grid">
+          <article class="card proj">
+            <h3>67-OS <span class="tag">C</span></h3>
+            <p>玩具級 x86 作業系統，會印 67 開機。</p>
+            <p class="meta">排程 · 記憶體 · 開機載入器</p>
+            <details><summary>展開 README</summary><p>67 個 commit，從 bootloader 刻到 shell。最自豪的是 context switch 只花 67 行組語（註解不算）。</p></details>
+          </article>
+          <article class="card proj">
+            <h3>memo-67 <span class="tag">Go</span></h3>
+            <p>分散式快取，p99 只要 6.7ms。</p>
+            <p class="meta">一致性雜湊 · LRU · gRPC</p>
+            <details><summary>展開 README</summary><p>三節點起跳，節點掛掉自動接手。壓測腳本內建，README 有重現步驟，電神可親自驗證。</p></details>
+          </article>
+          <article class="card proj">
+            <h3>ray-67 <span class="tag">C++</span></h3>
+            <p>光線追蹤小引擎，渲染一顆 67 面體。</p>
+            <p class="meta">BVH · 多執行緒 · SIMD</p>
+            <details><summary>展開 README</summary><p>從零刻向量數學，不套引擎。附 67 張測試圖，diff 工具一鍵比對。</p></details>
+          </article>
+          <article class="card proj">
+            <h3>algo-viz <span class="tag">TypeScript</span></h3>
+            <p>排序與尋路視覺化，鍵盤可全程操作。</p>
+            <p class="meta">Canvas · 無障礙 · 60fps</p>
+            <details><summary>展開 README</summary><p>每一步都有文字解說，螢幕報讀器也能跟上。支援暫停、單步、調速。</p></details>
+          </article>
+          <article class="card proj">
+            <h3>lint-67 <span class="tag">Python</span></h3>
+            <p>幫你數 code 裡有幾個 67 的 linter（誤）。</p>
+            <p class="meta">AST · CLI · pip 安裝</p>
+            <details><summary>展開 README</summary><p>正經功能是檢查 magic number，這個 repo 故意留 67 個讓它叫。本站通過檢查（大概）。</p></details>
+          </article>
+          <article class="card proj">
+            <h3>dotfiles-67 <span class="tag">Shell</span></h3>
+            <p>開箱即用的開發環境，一鍵 67 秒裝完。</p>
+            <p class="meta">Neovim · tmux · Git</p>
+            <details><summary>展開 README</summary><p>附按鍵表與還原腳本，重灌不求人。 IaC 精神，版本鎖死。</p></details>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CODE -->
+    <section id="code" class="section section-alt" aria-labelledby="code-title">
+      <div class="wrap">
+        <p class="sec-no" aria-hidden="true">04 / 67</p>
+        <h2 id="code-title">程式碼展示 <span class="sec-67">電神請驗</span></h2>
+        <p class="sec-sub">頁籤可用滑鼠點，也可用 ← → 鍵切換。每段都可以一鍵複製。</p>
+        <div class="tabs" role="tablist" aria-label="程式語言頁籤">
+          <button role="tab" id="tab-cpp" aria-selected="true" aria-controls="panel-cpp" type="button">C++</button>
+          <button role="tab" id="tab-py" aria-selected="false" aria-controls="panel-py" tabindex="-1" type="button">Python</button>
+          <button role="tab" id="tab-ts" aria-selected="false" aria-controls="panel-ts" tabindex="-1" type="button">JavaScript</button>
+        </div>
+        <div class="code-card">
+          <div class="code-head">
+            <span id="code-filename">sixty_seven.cpp</span>
+            <button id="copy-btn" class="btn btn-small" type="button">複製程式碼</button>
+          </div>
+          <div id="panel-cpp" role="tabpanel" aria-labelledby="tab-cpp" tabindex="0">
+<pre><code>// 67 號工程師的自我介紹：O(67) 也要寫得漂亮
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+
+int main() {
+    std::vector&lt;int&gt; skills(67, 67);
+    long long sum = 0;
+    for (int x : skills) sum += x; // 67 * 67 = 4489
+    std::cout &lt;&lt; "Hello, 電神! sum = " &lt;&lt; sum &lt;&lt; "\n";
+    return 0;
+}</code></pre>
+          </div>
+          <div id="panel-py" role="tabpanel" aria-labelledby="tab-py" tabindex="0" hidden>
+<pre><code># sixty_seven.py — 數一數有幾個 67
+def count_67(nums):
+    """回傳串列中 67 出現次數，O(n)。"""
+    return sum(1 for n in nums if n == 67)
+
+if __name__ == "__main__":
+    data = [6, 7, 67, 6767, 67]
+    print(f"Hello, 電神! 67 出現 {count_67(data)} 次")</code></pre>
+          </div>
+          <div id="panel-ts" role="tabpanel" aria-labelledby="tab-ts" tabindex="0" hidden>
+<pre><code>// sixtySeven.js — 本站 67 計數器核心邏輯
+function fib67(n) {
+  let a = 0, b = 1;
+  for (let i = 0; i &lt; n; i++) [a, b] = [b, a + b];
+  return a;
+}
+console.log(`Hello, 電神! fib(6)=${fib67(6)}, fib(7)=${fib67(7)}`);</code></pre>
+          </div>
+          <p id="copy-status" class="copy-status" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- LAB -->
+    <section id="lab" class="section lab" aria-labelledby="lab-title">
+      <div class="wrap">
+        <p class="sec-no" aria-hidden="true">67 / 67</p>
+        <h2 id="lab-title">67 實驗室 <span class="sec-67">有很多 67</span></h2>
+        <p class="sec-sub">三個小互動，全鍵盤可玩。分數存在你的瀏覽器裡，不會上傳。</p>
+        <div class="lab-grid">
+          <div class="card">
+            <h3>① 67 連打器</h3>
+            <p>按按鈕（或按 <kbd>Enter</kbd>）集滿 67 個 67。</p>
+            <p class="big-num"><span id="click-count">0</span> <small>/ 67</small></p>
+            <div class="row">
+              <button id="click-67" class="btn btn-primary" type="button">+67 精神（+1）</button>
+              <button id="click-reset" class="btn btn-ghost" type="button">歸零</button>
+            </div>
+            <p id="click-msg" role="status" aria-live="polite" class="lab-msg"></p>
+          </div>
+          <div class="card">
+            <h3>② 猜 6.7（1–100 取 6.7 倍？不，是猜 67）</h3>
+            <p>我心裡有個 1–100 的數字（答案固定是 <strong>67</strong>，但程式是隨機的）。</p>
+            <form id="guess-form">
+              <label for="guess-input">輸入 1–100 的整數</label>
+              <div class="row">
+                <input id="guess-input" name="guess" type="number" min="1" max="100" inputmode="numeric" required placeholder="例如 67" />
+                <button class="btn btn-primary" type="submit">猜！</button>
+              </div>
+            </form>
+            <p id="guess-msg" role="status" aria-live="polite" class="lab-msg">還沒猜過，67 在等你。</p>
+          </div>
+          <div class="card term-card">
+            <h3>③ 假終端機</h3>
+            <p>輸入 <code>help</code>、<code>whoami</code>、<code>skills</code>、<code>67</code> 試試。</p>
+            <div class="mini-term">
+              <div id="term-out" aria-live="polite" aria-label="終端機輸出"><p>$ 歡迎來到 67-shell，輸入 help 開始。</p></div>
+              <form id="term-form">
+                <label class="visually-hidden" for="term-in">終端機輸入</label>
+                <span aria-hidden="true">$</span>
+                <input id="term-in" type="text" autocomplete="off" spellcheck="false" placeholder="help" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section id="journey" class="section section-alt" aria-labelledby="journey-title">
+      <div class="wrap">
+        <p class="sec-no" aria-hidden="true">05 / 67</p>
+        <h2 id="journey-title">經歷時間軸</h2>
+        <ol class="timeline">
+          <li><strong>2023 — Hello, World</strong><span>寫下第一支會動的程式，從此回不去。</span></li>
+          <li><strong>2024 — 刷題 670 天</strong><span>演算法練到看到數字就想分析複雜度。</span></li>
+          <li><strong>2025 — 接案與開源</strong><span>幫社團刻報名系統，順手丟 6 個 side project。</span></li>
+          <li><strong>2026 — 第 67 版個人網站（本頁）</strong><span>純靜態、零框架，準備上 GitHub Pages。</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="wrap">
+        <p class="sec-no" aria-hidden="true">06 / 67</p>
+        <h2 id="contact-title">聯絡我</h2>
+        <div class="cols-2">
+          <div>
+            <p>想找我切磋 code、review 作品，或單純想討論 67 為什麼是質數，都歡迎。</p>
+            <ul class="contact-list">
+              <li>信箱（示範）：<a href="mailto:hi@chuanyao67.dev">hi@chuanyao67.dev</a></li>
+              <li>GitHub（示範帳號）：<span class="mono">github.com/chuanyao67</span> <button id="copy-gh" class="btn btn-small" type="button">複製帳號</button></li>
+            </ul>
+          </div>
+          <form id="mail-form" class="card" aria-label="快速留言（會開啟你的郵件 App）">
+            <h3>快速留言</h3>
+            <label for="m-name">你的名字</label>
+            <input id="m-name" name="name" type="text" autocomplete="name" required placeholder="電神" />
+            <label for="m-msg">想說的話</label>
+            <textarea id="m-msg" name="message" rows="4" required placeholder="你的 code 很 67！"></textarea>
+            <button class="btn btn-primary" type="submit">用郵件 App 寄出</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© <span id="year">2026</span> 傳耀 · 第 67 版 · 主色 RGB(67,67,67) · 純靜態網站</p>
+      <a href="#top" class="to-top">回到頂端 ↑</a>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <script src="./script.js" defer></script>
+</body>
+</html>

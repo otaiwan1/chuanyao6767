@@ -1,0 +1,43 @@
+# 傳耀的個人網站 — 純靜態站，無建置步驟
+# 依賴 / 套件快取
+node_modules/
+bower_components/
+.pnp
+.yarn/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 建置輸出 / 快取
+dist/
+build/
+out/
+.cache/
+.parcel-cache/
+.turbo/
+
+# 環境變數與秘密（絕對不要提交）
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*token*
+*secret*
+
+# 作業系統暫存檔
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 編輯器 / IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Python 本機預覽殘留（若日後用 py 工具）
+__pycache__/
+*.py[cod]
